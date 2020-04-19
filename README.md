@@ -1,2 +1,2 @@
-# The-Web-Dveloper-Bootcamp - HTML
+# The-Web-Developer-Bootcamp - HTML
 HTML Excercises and progress
