@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title> Registration Form </title>
+
+</head>
+<body>
+
+	<h2>Registration Form</h2>
+
+	<form>
+
+			<!-- First Name -->
+
+			<label for="FirstName">First Name: </label>
+
+			<input id="FirstName" type="text" name="First Name" placeholder="First Name" required="">
+			
+			<!-- Last Name -->
+
+			<label for="LastName">Last Name: </label>
+			<input id="LastName" type="text" name="Last Name" placeholder="Last Name" required="">
+
+
+		<div>
+
+			<!-- Male -->
+
+			<label for="Male" >Male</label>
+			<input type="radio" name="Gender" id="Male" value="Male" required="">
+			
+			<!-- Female -->
+
+			<label for="Female" >Female</label>
+			<input type="radio" name="Gender" id="Female" value="Female" required="">
+			
+			<!-- Other -->
+
+			<label for="Other">Other</label>
+			<input type="radio" name="Gender" id="cats" value="Other" required="">
+			
+		</div>
+
+		<div>
+			<!-- Email -->
+
+			<label for="Email">
+				Email:<input id="Email" type="Email" name="Email" placeholder="Email Address" required="">
+			</label>
+
+			<!-- Password -->
+
+			<label for="Password">
+				Password: 	<input id="Password" type="password" name="password" placeholder="password"  pattern=".{5,10}" required title="5 to 10 characters">
+			</label>
+
+		</div>
+
+		<div>
+			<!-- Birthday -->
+
+			<label for="start">Birthday:
+
+				<input type="date" id="start" name="trip-start" value=" " min="01-01-1950" max="">
+
+			</label>
+
+		</div>
+
+		<div>	
+				<!-- T&C -->
+
+				<p>
+					I agree with the terms and conditions 
+					<input type="checkbox" required="">
+				</p>
+		</div>
+				
+	
+															      
+	<button>Submit</button>
+
+	</form>
+</body>
+</html>
